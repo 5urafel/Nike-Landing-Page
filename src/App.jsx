@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import PopularProducts from "./sections/PopularProducts";
+import SuperQuality from "./sections/SuperQuality";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </section>
       <section className="padding">
         <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
       </section>
     </main>
   );
