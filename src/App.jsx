@@ -5,6 +5,7 @@ import SuperQuality from "./sections/SuperQuality";
 import SpecialOffer from "./sections/SpecialOffer";
 import Services from "./sections/Services";
 import CustomerReviews from "./sections/CustomerReviews";
+import Subscribe from "./sections/Subscribe";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />
+      </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe />
       </section>
     </main>
   );
