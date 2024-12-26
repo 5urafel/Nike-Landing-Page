@@ -4,6 +4,7 @@ import PopularProducts from "./sections/PopularProducts";
 import SuperQuality from "./sections/SuperQuality";
 import SpecialOffer from "./sections/SpecialOffer";
 import Services from "./sections/Services";
+import CustomerReviews from "./sections/CustomerReviews";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </section>
       <section className="padding">
         <SpecialOffer />
+      </section>
+      <section className="bg-pale-blue padding">
+        <CustomerReviews />
       </section>
     </main>
   );
